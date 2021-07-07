@@ -12,7 +12,7 @@ int main() {
     getline(cin, input_string); 
     
     // Print a string literal saying "Hello, World." to stdout using cout.
-    cout << "Hello, World." << endl;
+    cout << "Hello, World." << 
 
     // TODO: Write a line of code here that prints the contents of input_string to stdout.
 cout<< input_string;
