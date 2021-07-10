@@ -4,17 +4,17 @@ using namespace std;
 
 int main()
 {
- int n ;
- cin >>n;
-  if (n%2!=0 ){
+ int r ;
+ cin >>r;
+  if (r%2!=0 ){
    cout <<"Weird";   
   }
-  if (n%2==0)
+  if (r%2==0)
   {    
-  if (n>=2 && n<=5 ){
+  if (r>=2 && r<=5 ){
       cout<<"Not Weird";
   }
-  else if (n>=6 && n<=20){
+  else if (r>=6 && r<=20){
       cout <<"Weird";
   }
   else{
